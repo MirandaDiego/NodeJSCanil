@@ -62,7 +62,7 @@ ul li:hover a {
 }
 
 .banner {
-    height: 300px;
+    height: 400px;
     background: var(--lighter);
     background-size: cover;
     background-position: center;

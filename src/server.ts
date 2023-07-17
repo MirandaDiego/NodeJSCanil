@@ -19,7 +19,7 @@ server.use(mainRoutes);
 
 //caso nao encontre nenhuma rota:
 server.use((req, res)=>{
-    res.send('página não encontrada!')
+    res.render('pages/404')
 })
 
 
