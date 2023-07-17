@@ -7,3 +7,6 @@ configurações: rootDir, outDir,moduleResolution: node
 4º npm install --save-dev @types/express @types/mustache-express @types/node
 5º Criar atalhos para inicializaçaõ do nodemon: 
 em "scripts": "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+
+
+npm install --save-dev copyfiles
